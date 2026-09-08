@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "overview": "River Overview",
+    "evidence": "Evidence Explorer",
+    "citizen": "Citizen Observations",
+    "water": "Water & Conservation",
+    "alerts": "Alerts & Questions",
+    "metrics": "System Metrics",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "role": "Role",
+    "language": "Language",
+    "simple_mode": "Simple Mode"
+  },
+  "roles": {
+    "resident": "Community Resident",
+    "volunteer": "River Volunteer",
+    "admin": "Portal Administrator",
+    "analyst": "Environmental Analyst"
+  },
+  "health": {
+    "title": "River Health Condition",
+    "score": "Health Index",
+    "good": "Good",
+    "moderate": "Moderate",
+    "concerning": "Concerning",
+    "poor": "Poor",
+    "good_desc": "Water parameters indicate healthy river ecosystem capable of supporting biodiversity.",
+    "moderate_desc": "Minor degradation observed in selected areas. Active monitoring advised.",
+    "concerning_desc": "Substantial deviation from clean river guidelines. Prompt investigation required.",
+    "poor_desc": "Severe pollution or parameter crash detected. High caution advised."
+  },
+  "confidence": {
+    "title": "Evidence Confidence",
+    "high": "High Confidence",
+    "medium": "Medium Confidence",
+    "low": "Low Confidence",
+    "source_reliability": "Source Reliability",
+    "freshness": "Temporal Freshness",
+    "agreement": "Cross-Source Agreement",
+    "validation_coverage": "Validation Coverage",
+    "completeness": "Data Completeness"
+  },
+  "freshness": {
+    "title": "Evidence Freshness",
+    "fresh": "Fresh",
+    "aging": "Aging",
+    "stale": "Stale",
+    "missing": "Missing",
+    "sensor": "In-situ Sensors",
+    "satellite": "Satellite Overpass",
+    "citizen": "Citizen Reports",
+    "validation": "Field Validations"
+  },
+  "sources": {
+    "sensor": "Telemetry Sensors (35%)",
+    "satellite": "Sentinel-2 Satellite (25%)",
+    "citizen": "Citizen Observations (20%)",
+    "validation": "Ground Validations (20%)"
+  },
+  "demo": {
+    "title": "Interactive Demonstration Scenarios",
+    "badge": "DEMO SCENARIO ACTIVE",
+    "desc": "Simulate environmental events, sensor failures, and data gaps to evaluate portal explainability.",
+    "scenarios": {
+      "NORMAL": "Normal Fresh Data",
+      "MISSING_SENSOR": "Missing Sensor Failure",
+      "STALE_SATELLITE": "Stale Satellite Data (12 days old)",
+      "CONFLICTING": "Conflicting Evidence (Sensor vs Citizen)",
+      "ANOMALY": "pH Sensor Anomaly Spike",
+      "NO_CITIZENS": "No Citizen Observations (30 days)",
+      "LOW_SATELLITE": "Cloud Obscuration (>80% Clouds)"
+    }
+  },
+  "explorer": {
+    "title": "Evidence Explorer",
+    "subtitle": "Inspect raw data, inspect provenance, and challenge findings",
+    "filter_source": "All Sources",
+    "filter_freshness": "All Freshness",
+    "filter_confidence": "All Confidence",
+    "filter_health": "All Health Conditions",
+    "search_placeholder": "Search by station, location, or parameter...",
+    "drilldown_btn": "Deep Drill-down",
+    "provenance_btn": "Provenance Chain",
+    "challenge_btn": "Question This Evidence"
+  },
+  "citizen": {
+    "title": "Citizen Science Ground Truth",
+    "submit_btn": "Submit River Observation",
+    "location": "Observation Location",
+    "water_color": "Water Color",
+    "smell": "Odor / Smell",
+    "waste": "Visible Floating Waste",
+    "algae": "Visible Algae Mats",
+    "fish": "Fish / Wildlife Activity",
+    "comment": "Notes & Visual Description",
+    "condition": "Perceived River Condition",
+    "validate_btn": "Validate Report",
+    "status": "Verification Status"
+  },
+  "water": {
+    "title": "Community Water Consumption",
+    "subtitle": "Connecting community water conservation to local river baseflow preservation",
+    "saved": "Saved Against Baseline",
+    "target": "Conservation Target",
+    "liters_saved": "Estimated Liters Saved",
+    "disclaimer": "SIMULATION DISCLOSURE: Environmental telemetry is synthetically generated for community testing."
+  },
+  "disclaimer": "DEMONSTRATION & PROTOTYPE: All data is simulated for demonstration and pedagogical purposes."
+}
